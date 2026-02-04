@@ -5,6 +5,8 @@ import nextTs from "eslint-config-next/typescript.js";
 export default defineConfig({
   ...nextVitals,
   ...nextTs,
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   ignores: [
     ".next/**",
     "out/**",
