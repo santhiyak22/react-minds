@@ -2,12 +2,13 @@
   "name": "rminds-ui",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+"scripts": {
   "dev": "next dev",
   "build": "next build",
-  "preview": "next build ",
-  "deploy": "npx wrangler deploy"
+  "preview": "next start",
+  "deploy": "npx wrangler pages publish ./out"
 }
+
 ,
   "dependencies": {
     "axios": "^1.13.4",
