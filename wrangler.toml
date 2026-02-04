@@ -1,15 +1,12 @@
 name = "rminds-ui"
 compatibility_date = "2024-01-01"
 
-# Use site type for static assets
 type = "assets"
 account_id = "595516b91451ccc325a2eae316c54f6d"
 workers_dev = true
 
 [build]
 command = "npm run build"
-# Cloudflare Pages will automatically serve from the output folder
 
 [site]
-bucket = "./out"       # <- Next.js static export folder
-entry-point = "workers-site"
+bucket = "./out"

@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
   "dev": "next dev",
-  "build": "next build && next export",
-  "preview": "next build && next export",
+  "build": "next build ",
+  "preview": "next build",
   "deploy": "npx wrangler deploy"
 }
 ,
