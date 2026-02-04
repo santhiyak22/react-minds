@@ -6,7 +6,7 @@ account_id = "595516b91451ccc325a2eae316c54f6d"
 workers_dev = true
 
 [build]
-command = "npm run build"
+command = "npm run build && npm run export"
 
 [site]
 bucket = "./out"
