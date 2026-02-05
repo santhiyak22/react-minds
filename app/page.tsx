@@ -1,4 +1,4 @@
-
+import LayoutWrapper from "@/components/LayoutWrapper";
 import Image from "next/image";
 
 export default function Home() {
