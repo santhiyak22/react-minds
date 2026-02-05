@@ -8,6 +8,7 @@ const api = axios.create({
     Accept: "application/json",
   },
 });
+console.log("ENV URL =", process.env.NEXT_PUBLIC_API_URL);
 
 // ✅ REQUEST INTERCEPTOR - ADD JWT TOKEN TO ALL REQUESTS
 api.interceptors.request.use(
