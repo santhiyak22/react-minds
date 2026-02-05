@@ -86,7 +86,7 @@ export default function Navbar({ openQuotePopup }: NavbarProps) {
             <div>
               <Link href="/">
                 <Image
-                  src="/images/landing-page/logo.png"
+                  src="https://imagedelivery.net/kMEsfkjghv3Z0VNZGz9zFw/c3714f2b-aa05-4374-2044-be269a058700/public"
                   alt="ReactMinds Web Development Company in Chennai"
                   width={200}
                   height={30}

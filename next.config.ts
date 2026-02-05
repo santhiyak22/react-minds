@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",   // ✅ generates static HTML in /out automatically
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
   experimental: {
     appDir: true,
   },

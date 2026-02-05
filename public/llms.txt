@@ -1,0 +1,6 @@
+# llms.txt for ReactMinds
+User-Agent: *
+Disallow: /private/
+
+# Contact
+Contact: https://www.reactminds.com/contact-us

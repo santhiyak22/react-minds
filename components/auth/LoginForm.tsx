@@ -86,7 +86,7 @@ export default function LoginForm() {
       // ✅ Login success - Admin
       setForm({ email: "", password: "" });
       console.log("✅ Redirecting to dashboard...");
-      router.push("/dashboard");
+      router.push("/");
     } catch (err: any) {
       console.error("❌ Login error:", err);
       setError(err.message || "Login failed. Please try again.");
